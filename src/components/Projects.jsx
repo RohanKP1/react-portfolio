@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
         <div class="container py-10 px-10 mx-0 min-w-full flex flex-col items-center">
             <a href="https://github.com/RohanKP1?tab=repositories">
-                <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-300 via-slate-500 to-purple-500 group-hover:from-pink-300 group-hover:to-purple-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-purple-500 animate-text">
+                <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-300 via-slate-500 to-purple-500 group-hover:from-pink-300 group-hover:to-purple-500 hover:text-white dark:text-white animate-text">
                 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                 More Projects
                 </span>
