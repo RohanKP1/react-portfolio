@@ -7,9 +7,9 @@ import { SiGnubash } from "react-icons/si";
 import { motion } from "framer-motion"
 
 const iconVariations = (duration) => ({
-    initial: {y:-7},
+    initial: {y:-10},
     animate: {
-        y: [7, -7],
+        y: [10, -10],
         transition: {
             duration: duration,
             ease: "linear",
