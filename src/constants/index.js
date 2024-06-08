@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate computer science undergraduate with the love for open-source development. Actively
 contributes to projects, seeks continuous learning, and collaborates with global communities.`;
@@ -8,6 +9,13 @@ contributes to projects, seeks continuous learning, and collaborates with global
 export const ABOUT_TEXT = `I am a dedicated and versatile software developer with a passion for creating efficient and user-friendly applications. With 5 years of development experience, I have worked with a variety of technologies, including Python, GNU/Linux, Bash, Tkinter, GTK, QT, Git/GitHub, React, MySQL, MongoDB, et cetera. My journey in software development began with a deep curiosity for how things work, and it has evolved into a undergraduate where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const PROJECTS = [
+  {
+    title: "storyteller.uno - A platform to generate and share your stories",
+    image: project4,
+    description:
+      "Developed a web platform using Next.js, Convex, Clerk, and OpenAI API. Enabled users to create, share, and manage their stories. Implemented CRUD features and robust user authentication. Designed the UI with Shadcn and styled using TailwindCSS.",
+    technologies: ["Next.js", "Convex", "Clerk", "OpenAI API", "Shadcn", "TailwindCSS"],
+  },
   {
     title: "Neural Network implementation on a Flappy bird clone",
     image: project1,
